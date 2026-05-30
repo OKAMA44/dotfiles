@@ -1,0 +1,14 @@
+sudo nano /etc/pacman.conf
+
+sudo pacman -S gcc discord git qbittorrent yt-dlp wget flatpak ffmpeg gst-plugins-ugly gst-plugins-good gst-plugins-base gst-plugins-bad gst-libav gstreamer gufw fish waybar rofi yazi fastfetch
+
+chsh -s /usr/bin/fish
+
+set -U fish_greeting ""
+
+sudo pacman -Rcns vim
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+yay -S yaru-icon-theme pipes.sh
+
