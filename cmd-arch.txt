@@ -1,0 +1,15 @@
+sudo vim /etc/pacman.conf
+
+sudo pacman -S hyprland hyprland-xdg-dekstop-portal hyprpaper hypridle hyprlock hyprshot xdg-user-dirs kitty nwg-look gcc code qt6ct vlc vlc-plugins-all steam qt5ct discord git transmission-qt yt-dlp flatpak ffmpeg gst-plugins-ugly gst-plugins-good gst-plugins-base gst-plugins-bad gst-libav gstreamer ufw fish waybar rofi yazi fastfetch vim breeze-cursors
+
+flatpak install com.usebottles.bottles 
+
+xdg-user-dirs-update
+
+chsh -s /usr/bin/fish
+
+set -U fish_greeting ""
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+yay -S zen-browser-bin ygo-omega duckstation-git
