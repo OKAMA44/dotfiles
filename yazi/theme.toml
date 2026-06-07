@@ -20,7 +20,7 @@ dirs  = [
  	{ name = "Área de trabalho", text = "" }, 
  	{ name = "Projetos", text = "" }, 
  	{ name = "Documentos", text = "" }, 
- 	{ name = "Downloads", text = "" }, 
+ 	{ name = "Downloads", text = "" }, 
  	{ name = "Modelos", text = "" },  
  	{ name = "Músicas", text = "" }, 
  	{ name = "Imagens", text = "" }, 

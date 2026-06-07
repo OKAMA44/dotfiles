@@ -3,6 +3,7 @@ if status is-interactive
 alias neofetch 'fastfetch -l arch2 -c /examples/6'
 alias cbonsai 'cbonsai --screensaver --wait=1'
 alias cmatrix 'rmatrix'
+alias ls 'lsd -a1'
 
-neofetch
+pokemon-colorscripts -r
 end
