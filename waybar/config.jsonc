@@ -5,7 +5,8 @@
         "modules-right": ["tray","network","pulseaudio","clock"],
 
     "hyprland/window": {
-        "format": "{title}", 
+        "format": "{title}",
+		"tooltip": false,
         "max-length": 30,
         "min-length": 0,
         "all-outputs": true,
