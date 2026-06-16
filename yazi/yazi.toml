@@ -31,8 +31,8 @@ extract = [
 
 # Play media
 play = [
-	{ run = 'mpv --force-window "$@"', orphan = true, desc = "Play (mpv)", for = "unix" },
-	{ run = 'mpv --force-window %*', orphan = true,   desc = "Play (mpv)", for = "windows" },
+	{ run = 'vlc --force-window "$@"', orphan = true, desc = "Play (mpv)", for = "unix" },
+	{ run = 'vlc --force-window %*', orphan = true,   desc = "Play (mpv)", for = "windows" },
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
 
