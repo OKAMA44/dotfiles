@@ -5,14 +5,14 @@
         "modules-right": ["tray","network","pulseaudio","clock"],
 
     "hyprland/window": {
-        "format": "{title}",
-		"tooltip": false,
-        "max-length": 30,
+        "format": "{title}", 
+        "max-length": 100,
         "min-length": 0,
+        "tooltip": false,
         "all-outputs": true,
         "rewrite": {
             "Close OS Window": "Close?",
-            "(.*)Zen Browser": "Zen Browser",
+            "^(.*) — Zen Browser": "$1",
         },
     },
 	
