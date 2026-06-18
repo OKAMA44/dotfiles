@@ -68,9 +68,9 @@
     };
 
   # Define a user account.
-  users.users.nakamura = {
+  users.users.okama = {
     isNormalUser = true;
-    description = "NAKAMURA";
+    description = "OKAMA";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [];
     shell = pkgs.fish;
@@ -127,7 +127,6 @@
     rofi
     wget
     jdk
-    edopro-application
     pokemon-colorscripts
   ];
 
