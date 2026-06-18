@@ -12,7 +12,7 @@
         "all-outputs": true,
         "rewrite": {
             "Close OS Window": "Close?",
-            "^(.*) — Zen Browser": "$1",
+            "^(.*) — Zen Browser": "Zen Browser",
         },
     },
 	
