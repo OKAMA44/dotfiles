@@ -54,18 +54,11 @@
   # Configure console keymap
   console.keyMap = "br-abnt2";
 
-  # Enable ly
-  services.displayManager.ly.enable = true;
-  services.displayManager.ly.settings = {
-      animate = true;
-      animation = "dur_file";
-      bigclock = false;
-      hide_f1_commands = true;
-      dur_file_path = "/home/okama/.config/ly/blackhole.dur"
-      hide_string_version = true;
-      hide_key_hints = true
-      hide_keyboard_locks = true
-    };
+  services.displayManager.sddm = {
+    enable = true;
+    theme = "catppuccin-mocha-flamingo";
+    package = pkgs.kdePackages.sddm;
+  };
 
   # Define a user account.
   users.users.okama = {
@@ -128,6 +121,14 @@
     wget
     jdk
     pokemon-colorscripts
+    pkgs.catppuccin-sddm.override {
+      flavor = "mocha";
+      accent = "flamingo";
+      font  = "Jetbrains mono Nerd";
+      fontSize = "9";
+      background = "${./wallpaper.png}";
+      loginBackground = true;
+    }
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
