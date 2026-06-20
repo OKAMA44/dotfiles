@@ -6,6 +6,7 @@
 element-text, element-icon, mode-switcher {
     background-color: inherit;
     border-color: #f5c2e7;
+    vertical-align: 0.5;
     text-color: inherit;
     border-radius: 0px;
     font: @font;
@@ -56,6 +57,7 @@ entry {
     margin: 15px 0px 0px 15px;
     text-color: @foreground;
     background-color: @background;
+    vertical-align: 0.5;
     line-height: 30px;   
     font: @font;
     cursor-width: 11;
