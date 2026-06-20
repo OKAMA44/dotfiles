@@ -1,7 +1,7 @@
 {
     "layer": "top",
-    "modules-left": ["hyprland/workspaces#pacman"],
-    "modules-center": ["hyprland/window"],
+    "modules-left": ["custom/power"],
+    "modules-center": ["hyprland/workspaces#pacman"],
         "modules-right": ["tray","network","pulseaudio","clock"],
 
     "hyprland/window": {
@@ -9,10 +9,11 @@
         "max-length": 100,
         "min-length": 0,
         "tooltip": false,
-        "all-outputs": true,
+        "separate-outputs": true,
         "rewrite": {
             "Close OS Window": "Close?",
             "^(.*) — Zen Browser": "Zen Browser",
+            "YGO Omega": "Yu-Gi-Oh! Omega",  
         },
     },
 	
@@ -182,7 +183,7 @@
         //"on-click": "activate",
         "show-special": false,
     	"persistent-workspaces": {
-      		"*":4
+      		"*":5
     	},
     	"format": "{icon}", "format-icons": { 
 		"active": 
