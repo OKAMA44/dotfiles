@@ -108,7 +108,7 @@
     fastfetch
     breeze-cursors
     xdg-user-dirs
-    xorg.xcursorthemes
+    xcursor-themes
     qbittorrent
     nwg-look
     cmatrix
@@ -126,7 +126,7 @@
       accent = "flamingo";
       font  = "Jetbrains mono Nerd";
       fontSize = "9";
-      background = "${./wallpaper.png}";
+      background = "/home/okama/Imagens/Wallpapers/wallpaper.png";
       loginBackground = true;
     }
   ];
