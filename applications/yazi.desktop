@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Yazi
-Icon=/usr/share/icons/Breeze Chameleon Dark/apps/64/yazi.png
+Icon=yazi
 Comment=Blazing fast terminal file manager written in Rust, based on async I/O
 Terminal=true
 TryExec=yazi
